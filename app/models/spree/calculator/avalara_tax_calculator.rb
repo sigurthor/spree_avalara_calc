@@ -1,7 +1,7 @@
 module Spree
   class Calculator::AvalaraTaxCalculator < Calculator
     def self.description
-      I18n.t(:avalara_tax)
+      'Avalara tax calculator'
     end
 
     def compute(computable)

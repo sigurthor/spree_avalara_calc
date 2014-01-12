@@ -12,3 +12,5 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+
+gem 'spree', github: 'spree/spree', ref: '2-1-stable'
